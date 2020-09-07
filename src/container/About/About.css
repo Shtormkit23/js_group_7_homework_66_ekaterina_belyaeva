@@ -1,0 +1,88 @@
+.Contacts{
+    width: 1100px;
+    position: relative;
+    margin: 20px auto 20px;
+    padding: 10px 15px;
+    background: linear-gradient(to bottom, rgba(252,236,252,0.3) 0%,rgba(255,228,225,0.5) 100%);
+    border: 2px solid mistyrose;
+    border-radius: 10px;
+    min-height: 808px;
+}
+
+.Contacts-text{
+    text-align: center;
+    font-size: 28px;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card {
+    width: 250px;
+    padding: 15px;
+    background: rgba(255, 182, 193, 0.5);
+    border-radius: 10px;
+}
+
+.Card img {
+    width: 250px;
+    text-align: center;
+    height: 240px;
+    padding-bottom: 10px;
+}
+
+.Card h3{
+    text-align: center;
+    font-size: 25px;
+    color: FireBrick;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Card p{
+    text-align: center;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    resize: none;
+    height: 50px;
+}
+
+.Input:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Send{
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 36px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#ff72c0,mistyrose);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.Title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    margin: 0;
+    text-align: center;
+    color: MediumVioletRed;
+}
